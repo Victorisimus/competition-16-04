@@ -290,10 +290,17 @@ body {
 
   .slider__nav button:nth-of-type(1)::before {
     content: url(../img/arrow.png);
+    cursor: pointer;
   }
 
   .slider__nav button:nth-of-type(2)::before {
     content: url(../img/arrow.png);
+    cursor: pointer;
+  }
+
+  .slider__nav button:hover {
+    background-color: #ff0000;
+    border-radius: 50%;
   }
 
   .slider__text {
