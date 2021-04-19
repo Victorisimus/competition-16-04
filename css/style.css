@@ -189,15 +189,15 @@ body {
   margin-bottom: 18px;
 }
 
-.ideas__items li:nth-of-type(1)::before {
+.ideas__items .ideas__item-01::before {
   content: url(../img/lightbulb-icon.png);
 }
 
-.ideas__items li:nth-of-type(2)::before {
+.ideas__items .ideas__item-02::before {
   content: url(../img/browse-icon.png);
 }
 
-.ideas__items li:nth-of-type(3)::before {
+.ideas__items .ideas__item-03::before {
   content: url(../img/tel-icon.png);
 }
 
@@ -240,12 +240,12 @@ body {
     align-items: flex-start;
   }
 
-  .download-apps__links a:not(:last-child) {
+  .download-apps__links-item:not(:last-child) {
     margin-right: 30px;
     margin-bottom: 0;
   }
 
-  .download-apps__links a {
+  .download-apps__links-item {
     min-width: 270px;
     min-height: 110px;
   }
@@ -279,21 +279,21 @@ body {
     cursor: pointer;
   }
 
-  .slider__nav button:nth-of-type(1) {
+  .slider__next {
     left: -80px;
     transform: translateY(-50%);
   }
 
-  .slider__nav button:nth-of-type(2) {
+  .slider__prev {
     right: -80px;
     transform: translateY(-50%) rotate(180deg);
   }
 
-  .slider__nav button:nth-of-type(1)::before {
+  .slider__nav .slider__next::before {
     content: url(../img/arrow.png);
   }
 
-  .slider__nav button:nth-of-type(2)::before {
+  .slider__nav .slider__prev::before {
     content: url(../img/arrow.png);
   }
 
