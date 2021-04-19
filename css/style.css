@@ -73,7 +73,7 @@ body {
 }
 
 .download-apps__links a:hover {
-  transform: scale(1.01);
+  background-color: #ff0000;
 }
 
 .download-apps__links a::before {
