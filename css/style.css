@@ -55,7 +55,7 @@ body {
   align-items: center;
 }
 
-.download-apps__links a {
+.download-apps__links-item {
   max-width: 500px;
   width: 100%;
   display: flex;
@@ -72,26 +72,26 @@ body {
   transition: transform 0.3s linear;
 }
 
-.download-apps__links a:hover {
+.download-apps__links-item:hover {
   background-color: #ff0000;
 }
 
-.download-apps__links a::before {
+.download-apps__links-item::before {
   content: "";
   width: 60px;
   height: 60px;
   margin-right: 10px;
 }
 
-.download-apps__links a:not(:last-child) {
+.download-apps__links-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.download-apps__links a:nth-of-type(1)::before {
+.download-apps__links-item_appstore::before {
   content: url(../img/app-store-icon.png);
 }
 
-.download-apps__links a:nth-of-type(2)::before {
+.download-apps__links-item_googleplay::before {
   content: url(../img/google-play-icon.png);
 }
 
